@@ -6,6 +6,11 @@
     margin: 1% 2%;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 .header{
     display: flex;
     background-color: var(--dark);
@@ -44,3 +49,24 @@
 .header nav li a{
     color: var(--light);
 }
+
+.figure{
+    padding: 0px;
+    margin: 0px;
+}
+
+.figure img{
+    width: 100%;
+    height: auto;
+}
+
+.figure p{
+    z-index: 1;
+    color: white;
+    position: relative;
+    left: 750px;
+    bottom: 100px;
+    color: var(--light);
+    font-size: 30px;
+}
+
