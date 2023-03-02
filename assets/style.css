@@ -9,7 +9,9 @@
 body{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
+
 
 .header{
     display: flex;
@@ -20,7 +22,7 @@ body{
 }
 
 .header h1{
-    font-size: 50px;
+    font-size: 350%;
     display: flex;
     color: var(--dark);
     background-color: var(--light);
@@ -51,22 +53,57 @@ body{
 }
 
 .figure{
+    display: flex;
     padding: 0px;
     margin: 0px;
+    height: 10%;
 }
 
 .figure img{
     width: 100%;
     height: auto;
+   
 }
 
 .figure p{
+    display: flex;
+    flex-direction: row;
     z-index: 1;
     color: white;
     position: relative;
-    left: 750px;
-    bottom: 100px;
+    right: 20%;
+    bottom: 100%;
     color: var(--light);
     font-size: 30px;
 }
 
+section{
+    background-color: aliceblue;
+}
+
+.body-heading{
+    float: left;
+    width: 25%;
+}
+
+.body-heading h1{
+    flex-wrap: wrap;
+    color: var(--light);
+    font-size: 300%;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 0 10px;
+    margin-right: 10px;
+    border-right: 2px solid var(--light);
+    height: 160px
+    
+}
+
+section p{
+    display: flex;
+    color: var(--light);
+    margin-top: 4%;
+    
+
+    
+}
