@@ -93,17 +93,13 @@ section{
     justify-content: flex-end;
     text-align: right;
     padding: 0 10px;
-    margin-right: 10px;
-    border-right: 2px solid var(--light);
-    height: 160px
-    
+    margin-right: 5px;    
 }
 
 section p{
     display: flex;
     color: var(--light);
     margin-top: 4%;
-    
-
-    
+    padding-left: 10px;
+    border-left: 2px solid var(--light);    
 }
