@@ -77,21 +77,23 @@ body{
     font-size: 30px;
 }
 
-section{
+.white-background{
     background-color: aliceblue;
 }
 
 .body-heading{
     float: left;
-    width: 25%;
+    width: 20%;
+    border-right: 2px solid var(--light);
+    padding-bottom: px;
+   
 }
 
 .body-heading h1{
-    flex-wrap: wrap;
     color: var(--light);
     font-size: 300%;
-    justify-content: flex-end;
     text-align: right;
+    vertical-align: top;
     padding: 0 10px;
     margin-right: 5px;    
 }
@@ -101,5 +103,24 @@ section p{
     color: var(--light);
     margin-top: 4%;
     padding-left: 10px;
-    border-left: 2px solid var(--light);    
+    }
+
+.largecard{
+    border-left: 2px solid var(--light);
+    padding-left: 5%;
 }
+
+.wave{
+    width: 70%;
+    height: auto;
+    margin-left: 4%;
+    border: 2px solid red
+}
+
+.caption{
+    color: var(--dark);
+    background-color: var(--light);
+    width:10%;
+    z-index: 1;
+
+}   
