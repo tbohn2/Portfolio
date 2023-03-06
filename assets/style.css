@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    ;
+    
 }
 
 .header h1 {
@@ -106,16 +106,6 @@ body {
     margin-top: 2%;
     
 }
-/* .body-content2 {
-    border-left: 2px solid var(--light);
-    width: 80%;
-    padding: 0% 2%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 21%;
-    
-} */
 
 .body-content p {
     color: var(--light);
@@ -148,7 +138,7 @@ body {
 }
 
 .small-card {
-    width: 35%;
+    width: 39%;
     height: 150px;
     border: 7px solid var(--light);
     display: flex;
@@ -158,8 +148,7 @@ body {
 .small-card img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    border: 2px solid black;    
+    object-fit: cover;   
 }
 
 .small-card figcaption {
@@ -171,4 +160,25 @@ body {
     z-index: 1;
     position: relative;
     bottom: 45%;
+}
+
+.footer ul {
+    font-size: 30px;
+    border-left: 2px solid var(--light);
+    padding: 0% 2%;
+    color: var(--light);
+    list-style: none;
+    height: 120px;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* overflow: auto;  */
+}
+
+.footer ul li {
+    /* color: black;
+    text-align: center;
+    /* float: left; */
+    /* padding: 15px; */
 }
