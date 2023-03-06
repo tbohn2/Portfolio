@@ -19,7 +19,6 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    
 }
 
 .header h1 {
@@ -103,8 +102,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 2%;
-    
+    margin-top: 2%;  
 }
 
 .body-content p {
@@ -116,7 +114,8 @@ body {
     height: auto;
     border: 7px solid var(--light);
     display: flex;
-    
+    flex-wrap: wrap;
+    margin: 3%;
 }
 
 .large-card img {
@@ -124,26 +123,27 @@ body {
     height: 100%;
 }
 
-.large-card p {
+.large-card figcaption {
     font-size: 2em;
     text-align: center;
     color: var(--dark);
     background-color: var(--light);
-    height: 17%;
+    height: 40px;
     z-index: 1;
     position: relative;
-    right: 100%;
-    top: 60%;
+    bottom: 35%;
     
 }
 
 .small-card {
-    width: 39%;
-    height: 150px;
+    width: 42%;
+    height: 150px; 
     border: 7px solid var(--light);
     display: flex;
     flex-wrap: wrap;   
+    margin: 3%;
 }
+   
 
 .small-card img {
     width: 100%;
@@ -156,7 +156,7 @@ body {
     text-align: center;
     color: var(--dark);
     background-color: var(--light);
-    height: 23%;
+    height: 40px;
     z-index: 1;
     position: relative;
     bottom: 45%;
