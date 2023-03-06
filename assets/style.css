@@ -17,17 +17,14 @@ body {
     display: flex;
     background-color: var(--dark);
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     height: 100px;
 }
 
 .header h1 {
     font-size: 350%;
-    display: flex;
     color: var(--dark);
     background-color: var(--light);
-    justify-content: flex-end;
-    align-items: center;
     padding-left: 40px;
     padding-right: 10px;
 }
@@ -36,12 +33,24 @@ body {
     font-size: 30px;
     color: var(--light);
     list-style: none;
+    display: flex;
     flex: wrap;
     align-items: center;
-    overflow: auto;
+ }
+
+.header nav ul li {
+    margin: 0px 3px;
+    height: 30px;
+    border-bottom: 3px solid var(--light);
 }
 
-/* Overflow auto  */
+.header nav ul li:hover {
+    border-bottom: 10px solid var(--light);
+}
+
+.header nav ul li a {
+    text-decoration: none;
+}
 
 .header nav ul li {
     text-align: center;
@@ -102,11 +111,19 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 2%;  
+    margin-top: 2%;
 }
 
 .body-content p {
     color: var(--light);
+}
+
+.body-content a {
+    text-decoration: none;
+}
+
+.body-content a img:hover {
+    filter:brightness(130%)
 }
 
 .large-card {
@@ -132,23 +149,23 @@ body {
     z-index: 1;
     position: relative;
     bottom: 35%;
-    
+
 }
 
 .small-card {
     width: 42%;
-    height: 150px; 
+    height: 150px;
     border: 7px solid var(--light);
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
     margin: 3%;
 }
-   
+
 
 .small-card img {
     width: 100%;
     height: 100%;
-    object-fit: cover;   
+    object-fit: cover;
 }
 
 .small-card figcaption {
@@ -173,12 +190,17 @@ body {
     flex: wrap;
     align-items: center;
     justify-content: space-around;
-    /* overflow: auto;  */
 }
 
 .footer ul li {
-    /* color: black;
-    text-align: center;
-    /* float: left; */
-    /* padding: 15px; */
+    border-bottom: 3px solid var(--light)
+}
+
+.footer ul li:hover {
+    border-bottom: 10px solid var(--light)
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: var(--light);
 }
