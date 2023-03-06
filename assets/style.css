@@ -17,16 +17,17 @@ body {
     display: flex;
     background-color: var(--dark);
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     height: 100px;
 }
 
 .header h1 {
-    font-size: 350%;
+    font-size: 50px;
     color: var(--dark);
     background-color: var(--light);
     padding-left: 40px;
     padding-right: 10px;
+    
 }
 
 .header nav ul {
@@ -36,7 +37,7 @@ body {
     display: flex;
     flex: wrap;
     align-items: center;
- }
+}
 
 .header nav ul li {
     margin: 0px 3px;
@@ -67,6 +68,7 @@ body {
     padding: 0px;
     margin: 0px;
     height: 10%;
+    
 }
 
 .figure img {
@@ -76,13 +78,13 @@ body {
 }
 
 .figure p {
-    display: flex;
     flex-direction: row;
     z-index: 1;
-    color: white;
+    justify-self: center;
+    align-self: center;
     position: relative;
-    right: 20%;
-    bottom: 100%;
+    right: 25%;
+    bottom: 100%; 
     color: var(--light);
     font-size: 30px;
 }
@@ -123,7 +125,7 @@ body {
 }
 
 .body-content a img:hover {
-    filter:brightness(130%)
+    filter: brightness(130%)
 }
 
 .large-card {
@@ -179,6 +181,10 @@ body {
     bottom: 45%;
 }
 
+.footer {
+    
+}
+
 .footer ul {
     font-size: 30px;
     border-left: 2px solid var(--light);
@@ -203,4 +209,46 @@ body {
 .footer ul li a {
     text-decoration: none;
     color: var(--light);
+}
+
+@media screen and (max-width: 992px) {
+    .header h1 {
+        font-size: 250%;
+    }
+
+    .body-heading h1 {
+        font-size: 200%;
+    }
+
+    .header nav ul{
+        font-size: 20px;
+    }
+
+    .small-card {
+        width: 40%;
+    }
+
+    .footer ul {
+        font-size: 22px;
+    }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+    .figure p {
+        font-size: 28px;
+    }
+
+    .small-card {
+        width: 100%;
+     }
+    
+    .footer ul {
+        font-size: 18px;
+    }
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+
 }
