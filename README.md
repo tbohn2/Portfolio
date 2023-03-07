@@ -22,5 +22,9 @@ N/A
 
 N/A
 
+## Acknowledgements
+
+All included images were downloaded from pexels.com
+
 
 
