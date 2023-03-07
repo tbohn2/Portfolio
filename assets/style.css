@@ -30,7 +30,7 @@ body {
 }
 
 .header nav ul {
-    font-size: 30px;
+    font-size: 24px;
     color: var(--light);
     list-style: none;
     display: flex;
